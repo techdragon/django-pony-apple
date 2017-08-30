@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/django_pony_apple
+   */site-packages/django_pony_apple
+
+[run]
+branch = true
+source =
+    django_pony_apple
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
